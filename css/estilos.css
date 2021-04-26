@@ -8,33 +8,51 @@ body {
     .contenedor{
     width: 80%;
     margin: auto;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 1px;
+    padding-bottom: 1px;
     padding-left: 80px;
     padding-right: 40px;
     overflow: hidden;
     }
     
     ul{
-        margin: 0;
+        margin: 20;
         padding: 0;
     }
     
     
     header{
-        background-color: lightcoral;
+        background-color: #009E0F;
         color: snow;
         padding-top: 30px;
     
     }
     
     header a{
-        color: rebeccapurple;
+        color: rgb(8, 8, 8);
         text-decoration: none;
         text-transform: uppercase;
     }
     
     ul li{
+    list-style: none;
+    display: inline-block;
+    }
+
+
+    footer{
+        background-color: #009E0F;
+        padding-top: 1px;
+        padding-bottom: 25px;
+    }
+
+    footer a{
+        color: rgb(8, 8, 8);
+        text-decoration: none;
+        text-transform: uppercase;   
+    }
+
+    nav ul p{
     list-style: none;
     display: inline-block;
     }

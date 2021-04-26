@@ -13,7 +13,7 @@
         
         <link rel="stylesheet" type="text/css" href="css/estilos.css">
   
-      <title> </title>  
+      <title> Hampi Yachay </title>  
     </head>
  
     <body>
@@ -21,7 +21,6 @@
         <header>
            <div class="contenedor">
                <div id="logotipo">
-                    <h1>HAMPI YACHAY</h1>
                </div>
                <a href="./" id="cabeza_logo">
                 <img src="./Logotipo/HAMPI (1).png" alt="Hampi Yachay" width="269" height="63">
@@ -49,25 +48,48 @@
            </div>
         </header>
 
-         <form id="contact_form" action="" method="POST" enctype="multipart/form-data">
-            <div class="row">
-                <label  for="name">Nombre:</label><br />
-                <input id="name"  name="txtnombre" type="text" value="" size="30" /><br />
-               
+        <section>
+            <div class="help">
+                <p>CONTACTO</p>
+                    <form id="contact_form" action="" method="POST" enctype="multipart/form-data">
+                        <div class="row">
+                        <label  for="name">Nombre:</label><br />
+                        <input id="name"  name="txtnombre" type="text" value="" size="30" /><br />
+                       
+                        </div>
+                        <div class="row">
+                        <label  for="email">E-mail:</label><br />
+                        <input id="email"  name="email" type="text" value="" size="30" /><br />
+                        
+                        </div>
+                        <div class="row">
+                        <label  for="message">Mensaje:</label><br />
+                        <textarea id="message" " name="message" rows="7" cols="32"></textarea><br />
+                       
+                        </div>
+                        
+                        <input id="submit_button" type="submit" value="Enviar" />
+                    </form>
             </div>
-            <div class="row">
-                <label  for="email">E-mail:</label><br />
-                <input id="email"  name="email" type="text" value="" size="30" /><br />
-                
-            </div>
-            <div class="row">
-                <label  for="message">Mensaje:</label><br />
-                <textarea id="message" " name="message" rows="7" cols="30"></textarea><br />
-               
-            </div>
-                
-                <input id="submit_button" type="submit" value="Enviar" />
-            </form>
-    
-    </body> 
-</html>      
+        </section>
+            
+        <footer>
+            <section>
+                <div class="contenedor">
+                    <nav>
+                        <ul>
+                           <p><li> <a href="metodosdepago.html"> Metodos de pago </a> </li></p> 
+                            <p><li> <a href="contactenos.html"> Contáctenos </a> </li></p>
+                            <p><li> <a href="siguenos.html"> Síguenos  </a> </li></p>
+                            <p><li> <a href="informate.html"> Infórmate </a> </li> </p>
+                        </ul>
+                    </nav>
+                </div>
+            </section>
+
+    <center> <p> © TODOS LOS DERECHOS RESERVADOS </p> </center> 
+        </footer>
+
+    </body>
+
+</html>
