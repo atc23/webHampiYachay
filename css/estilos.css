@@ -1,0 +1,40 @@
+body {
+    font: 15px Arial,Helvetica,sans-serif ; 
+    padding: 0;
+    margin: 0;
+    background-color: floralwhite;
+    }
+    
+    .contenedor{
+    width: 80%;
+    margin: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 80px;
+    padding-right: 40px;
+    overflow: hidden;
+    }
+    
+    ul{
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+    header{
+        background-color: lightcoral;
+        color: snow;
+        padding-top: 30px;
+    
+    }
+    
+    header a{
+        color: rebeccapurple;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    
+    ul li{
+    list-style: none;
+    display: inline-block;
+    }
