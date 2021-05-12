@@ -12,11 +12,13 @@ header{
     background: #009E0F;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
+    text-align: center;
 }
 .navegacion{
-    width: auto;
+    width: 100%;
     margin: 0;
-    background: #009E0F;
+    
+    background: #F75C00;
 }
 
 .navegacion ul{
