@@ -11,7 +11,8 @@
   
         <meta name="author" content="Hampi_Yachay">
         
-        <link rel="stylesheet" type="text/css" href="css/estilos4.css">
+        <link rel="stylesheet" href="css/estilos4.css">
+        <link rel="stylesheet" type="text/css" href="css/estilos2.css">
   
       <title> FARMACIA HAMPI YACHAY </title>  
     </head>
@@ -19,7 +20,7 @@
     <body>
 
         <header>
-            <article>
+            <article id="principal">
                 <div class="logotipo">
                     <img src="./Logotipo/HAMPI (1).png "  alt="Hampi Yachay" width="269" height="70"> 
                  </div>
@@ -33,8 +34,8 @@
                     <div class="login">
                         <a href="carrito.html"><img class="carrito" src="js/png-transparent-font-awesome-shopping-cart-computer-icons-shopping-cart-angle-silhouette-black.png" alt="" width="26px" height="26px"></a>
                         <a class="enlace" href="login.html"> Iniciar Sesión</a>
-                </div>
-
+                    </div>
+            
                 
                 <nav class="navegacion">
                     <ul class="menu">
@@ -59,70 +60,45 @@
             </article>   
         </header>
 
+        <div class="vista"><a href="index4.html"> Inicio</a> / Regístrate </div>
+
         <div class="contenedor">
-            
-                <div id="promociones"> 
-                   <div class="article"> <a href="promociones.html"> PROMOCIONES  </a> </div> 
+            <form  action="" class="form2">
+                <h4>Solo falta un paso, ¡No te des por vencido!</h4><br />
+                <p>Completa estos datos para crear tu cuenta</p><br />
 
-                   <div class="caja">
-                    <img src="./promociones/mascarilla.jpg" width="200px" height="200px" alt="">
-                    <div class="com"><a href="carrito.html"> Comprar </a></div>
-                   </div>
-                   
-                   <div class="caja">
-                    <img src="./promociones/pañales para adultos.jpg" width="200px" height="200px" alt="">
-                    <div class="com"><a href="carrito.html"> Comprar </a></div>
-                   </div>
-
-                   <div class="caja">
-                    <img src="./promociones/babylac.jpg" width="200px" height="200px" alt="">
-                    <div class="com"><a href="carrito.html"> Comprar </a></div>
-                   </div>
-
-                   <div class="caja">
-                    <img src="./promociones/toallitas-humedas-x-25-unidades-barbie-22126-default-1.jpg" width="200px" height="200px" alt="">  
-                    <div class="com"><a href="carrito.html"> Comprar </a></div>
-                   </div>
+                <div class="row">
+                    <label  for="name">Nombres*</label><br />
+                    <input class="container"  name="txtnombre" type="text" value="" size="10" /><br />
                 </div>
 
-                <div id="medicina">
-                    <div class="article"> <a href="medicinas.html"> MEDICINAS  </a> </div>
-                    <div class="caja">
-                        <img src="./MEDICAMENTOS/12173-humulin-r_1.jpg" width="200px" height="200px" alt="">  
-                        <div class="com"><a href="carrito.html"> Comprar </a></div>
-                    </div>
-
-                    <div class="caja">
-                        <img src="./MEDICAMENTOS/albendazol_15862_l.jpg" width="200px" height="200px" alt="">  
-                        <div class="com"><a href="carrito.html"> Comprar </a></div>
-                    </div>
-
-                    <div class="caja">
-                        <img src="./MEDICAMENTOS/AZOTROMICINA.jpg" width="200px" height="200px" alt="">  
-                        <div class="com"><a href="carrito.html"> Comprar </a></div>
-                    </div>
-
-                    <div class="caja">
-                        <img src="./MEDICAMENTOS/PARACETAMOL.jpg" width="200px" height="200px" alt="">
-                        <div class="com"><a href="carrito.html"> Comprar </a></div>
-                    </div>
-                </div>
-            
-            </div>
-
-        <div id="voluntariado"> 
-            <div class="community">
-                <div><a href="voluntariado.html"> VOLUNTARIADO </a></div>
-                <div class="caja2">
-                    <p> RECOJO DE DONATIVOS </p>
-                    <img src="./fechas/50638139-25-calendario-abril-en-el-fondo-blanco-ilustración-3d-.jpg" width="100px" height="100px" alt="">
+                <div class="row">
+                    <label  for="surname">Apellidos*</label><br />
+                    <input class="container"  name="lastname" type="text" value="" size="10" /><br />
                 </div>
 
-                <div class="caja2">
-                    <p> ENTREGA DE DONATIVOS </p>
-                    <img src="./fechas/50638141-30-calendario-abril-en-el-fondo-blanco-ilustración-3d-.jpg" width="100px" height="100px" alt="">
+                <div class="row">
+                    <label  for="identity">DNI*</label><br />
+                    <input class="container"  name="txtdni" type="text" value="" size="10" /><br />
                 </div>
-            </div>
+
+                <div class="row">
+                    <label  for="email">E-mail*</label><br />
+                    <input class="container"  name="text" type="text" value="" size="10" /><br />
+                </div>
+
+                <div class="row">
+                    <label  for="phone">Número de celular*</label><br />
+                    <input class="container"  name="txtphone" type="text" value="" size="10" /><br />
+                </div>
+
+                <div class="checkbox">
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                    <label>He leído y acepto la <a href="#">Política de protección de Datos personales. </a></label>
+                </div>
+                <center><button type="submit" name="enviar_formulario" id="enviar"><p>Crear cuenta</p></button></center>
+            </form>
+
         </div>
 
         <footer>
@@ -135,4 +111,4 @@
             <center> <p> © TODOS LOS DERECHOS RESERVADOS </p> </center> 
         </footer>
     </body>
-</html>        
+</html>

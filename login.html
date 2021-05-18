@@ -11,8 +11,8 @@
   
         <meta name="author" content="Hampi_Yachay">
         
-        <link rel="stylesheet" type="text/css" href="css/estilos4.css">
-        <link rel="stylesheet" href="css/estilos3.css">
+        <link rel="stylesheet" href="css/estilos4.css">
+        <link rel="stylesheet" type="text/css" href="css/estilos.css">
   
       <title> FARMACIA HAMPI YACHAY </title>  
     </head>
@@ -20,7 +20,7 @@
     <body>
 
         <header>
-            <article>
+            <article id="principal">
                 <div class="logotipo">
                     <img src="./Logotipo/HAMPI (1).png "  alt="Hampi Yachay" width="269" height="70"> 
                  </div>
@@ -34,8 +34,8 @@
                     <div class="login">
                         <a href="carrito.html"><img class="carrito" src="js/png-transparent-font-awesome-shopping-cart-computer-icons-shopping-cart-angle-silhouette-black.png" alt="" width="26px" height="26px"></a>
                         <a class="enlace" href="login.html"> Iniciar Sesión</a>
-                </div>
-
+                    </div>
+            
                 
                 <nav class="navegacion">
                     <ul class="menu">
@@ -60,32 +60,33 @@
             </article>   
         </header>
 
-        <div class="vista"><a href="index4.html"> Inicio </a> / Contáctenos</div> 
-        <section>
+        <div class="vista"><a href="index4.html"> Inicio</a> / Regístrate </div>
+
             <div class="contenedor">
-                <p>CONTACTENOS</p></br>
-                    <form id="contact_form" action="" method="POST" enctype="multipart/form-data">
-                        <div class="row">
-                        <label  for="name">Nombre:</label><br/>
-                        <input class="container"  name="txtnombre" type="text" value="" size="30" /><br/>
-                       
-                        </div>
-                        <div class="row">
-                        <label  for="email">E-mail:</label><br />
-                        <input class="container"  name="email" type="text" value="" size="30" /><br/>
-                        
-                        </div>
-                        <div class="row">
-                        <label  for="message">Mensaje:</label><br />
-                        <textarea id="message" name="message" rows="7" cols="32"></textarea><br />
-                       
-                        </div>
-                        
-                        <input id="submit_button" type="submit" value="Enviar" />
-                    </form>
-            </div>
-        </section>
+                
+                <form class="formulario">
             
+                    <h4>Registrarse con correo electrónico</h4>                    
+                        <input class="input-contenedor" type="text" placeholder="E-mail*">
+                        <div><input class="input-contenedor" type="password" placeholder="Contraseña*">
+                        
+                            <ul class="restriccion">
+                                <li>Mínimo 8 carácteres</li>
+                                <li>Una minúscula</li>
+                                <li>Una mayúscula</li>
+                                <li>Un número</li>
+                            </ul>
+                        </div>
+
+                        <input class="input-contenedor" type="password" placeholder="Confirma tu contraseña*">
+                
+                    <div class="button"><a href="registrate-2.html">Crear cuenta </a></div>
+                    <p>¿Ya tienes una cuenta? <a class="link" href="login.html">Iniciar Sesión</a></p>
+            
+                </form>    
+            </div>
+        
+
         <footer>
             <div class="end">
                 <a href="metodosdepago.html"> Metodos de pago </a>
@@ -96,5 +97,4 @@
             <center> <p> © TODOS LOS DERECHOS RESERVADOS </p> </center> 
         </footer>
     </body>
-
 </html>
