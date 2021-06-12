@@ -1,0 +1,155 @@
+
+body{
+    background-color: #F6F6F6;
+}
+
+#productos{
+    border-radius: 5px;
+    width: 76em;
+    background: #ffffff;
+    margin: 1.5em auto;
+    display: grid;
+    padding: 0.5em;
+    grid-template-columns: repeat(3, 1fr);
+    font-family: Muli,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+#productos>.img-promociones{
+    padding: 50px;
+}
+
+.img-promociones-produc-001{
+    width: 300px;
+    padding: 0px 70px 50px 90px;
+}
+
+#productos>.contenedor{
+    height: 25em;    
+    padding: 30px;
+    width: 600px;
+}
+
+.titulo-produc-001{
+    color: #737373;
+    border-color: #737CA9 1px;
+    /*font-weight: bold;*/
+    font-size: 13px;
+}
+
+.detalles{
+    margin: 8px 0;
+}
+
+.detalles-produc-001{
+    font-size: 23px;
+    font-weight: bold;
+    font-family: Muli,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    color: #262626;
+}
+
+.precio{
+    margin: 30px 0px;
+}
+
+.precio-prom{
+    font-size: 23px;
+    color: #262626;
+    font-weight: 400;
+}
+
+.detail-form{
+    margin: 40px;
+}
+
+.detail-form-001{
+    font-size: 14px;
+    color: #26262D;
+}
+
+.present-product{
+    margin: 5px 0px;
+}
+
+.present-product-form{
+    font-weight: bold;
+    font-size: small;
+    color: #3A3026;
+}
+
+/*.present-tip{
+    border: 1px black solid;
+}*/
+
+.present-tip>form{
+    width: 99px;
+    float: left;
+    margin: 4px;
+}
+
+.present-tip select{
+    border: 1px black solid;
+    height: 35px;
+    width:  100px;
+}
+
+.present-tip option{
+    font-size: 50px;
+    text-align: center;
+}
+
+.form-button{
+    border: 1px black solid;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+    background-color: #009E0F;
+}
+
+.button{
+    border: 1px black solid;
+    padding: 10px;    
+    text-align: center;
+}
+
+.button a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#container-enhanse{
+    height: 6em;
+    width: 27em;
+}
+
+.incremento{
+    width: 300px;
+    float: right;
+    
+}
+
+.incremento>button{
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border: black 1px solid;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.incremento>input{
+    font-size: 18px;
+    border: 1px solid white;
+    padding: 2px;
+}
+
+.present-tip{
+    height: 3em;
+}
+
+#cantidad{
+    width: 20px;
+}

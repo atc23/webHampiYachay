@@ -1,157 +1,91 @@
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-
-body{
-    border: 1px solid #000;
-    background: #009E0F;
-    padding-top: 160px;
-    padding-bottom: 20px;
-}
-header{
-    border: 1px solid #000;
-    background: #fff;
+.caja > p{
     text-align: center;
-    position: fixed;
-    width: 100%;
-    height: 150px;
-    top: 0;
-}
- nav{
-    border: 1px solid rgb(145, 177, 31);
- }
-
- .logotipo{
-    position: absolute;
- }
-
- img{
-    
-     float: left;
-     padding: 10px;
- }
-
- .login {
-    border: 1px solid black;
-    float: right;
-    margin: 5px 10px;
-    width: 200px;
-    padding: 10px 20px;
-    display: block;
-    position: relative;
- }
-
- .login img{
-    background: #fff;
- }
-
- .login form{
-     width: 200px;
-     height: 61px;
- }
-
- .login a img {
-     padding: 0px 0px 5px 8px ;
- }
-
- .login a{
-     width: 200px;
-    display: block;
-    color: #787878;
-    text-decoration: none;
-    padding: 15px 0px 20px 0px; 
-    border-radius: 8px;
-  }
-  
-  .login a:hover {
-    text-decoration:none;
-    color: #E8E8E8;
-    cursor:pointer;
-  }
-
- #busqueda{
-    
-    float: left;
-    margin-top: 15px;
-    margin-left: 30%;
-    padding: 5px;
- }
- 
- input{
-    border: solid #F5F5F5;
-    width: 550px;
-    padding: 10px;
-    border-radius: 20px;
- }
-
- #busqueda button{
-    width: 120px;
-    padding: 10px;
-    border-radius: 15px;
-}
-
-form{
-    background-color: #fff;
-}
-
-#navegacion{
-    border: 1px solid rgb(93, 50, 173);
-    position: absolute;
-    bottom: 0;
-    height: 60px;
-    line-height: 60px;
-    width: 100%;
-    background: #F75C00;
-}
-
-#navegacion ul,ol{
-    list-style: none;
-}
-
-.menu > li {
-    border: 1px solid #000;
-    display: inline-block;
-    padding: 10px 15px;
-    line-height: 1;
-    border-radius: 5px;
-}
-
-.menu > li > a{
-    
-    color: white;
-    text-decoration: none;
-    position: relative;
-    display: block;
-    padding: 10px 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
-}
-
-.menu li:hover{
-    background: #d1b1b16b;
-}
-
-.submenu{
-    border: 1px solid #000;
-    display: none;
-    position: absolute;
-    background: blanchedalmond;
-    width: 50%;
-    border-radius: 5px;
-}
-
-.submenu li a{
-    display: block;
-    padding: 10px 15px;
-    color: #262626;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-decoration: none;
+    font-family: 'calibri';
+    margin: 1em;
+    font-size: 20px;
     text-align: left;
 }
 
-.menu li:hover .submenu{
-    display: block;
+.imginicio {
+    border-radius: 10px;
+    border: solid 1px black;
+    width: 30%;
+    height: 360px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    font-family: 'calibri';
 }
+
+.boton{
+    border: black 1px solid;
+    padding: auto;
+    height: 100px;
+}
+
+.caja button{
+    margin-top: 10px;
+    width: 383px;
+    height: 50px;
+    padding: 1em;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.fb{
+    background-color: #1877F2;
+    margin: 0.5em;
+}
+
+.fb p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.gle{
+    margin: 0.5em;
+    background-color: #ffffff;
+    border: 2px solid #F5F5F5;
+}
+
+.gle p{
+    color: #393D40;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.correotitulo{
+    background-color: #E5EAE4;
+    border-radius: 50px;
+    width: 348px;
+    height: 20px;
+    padding: 1em;
+    margin: 0.5em;
+    text-align: center;
+}
+
+.correotitulo a{
+    
+    text-decoration: none;
+    font-family: 'calibri';
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.new, .find{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.new a, .find a{
+    text-decoration: none;
+    color: #F75C00;
+    
+}
+
+
 

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="es-PE">
+    <head>
+      <meta charset="UTF-8">
+  
+        <meta name="viewport" content="width=device-width">
+  
+        <meta name="description" content="Realiza tus compras online y aprovecha los beneficios que tenemos para ti.">
+  
+        <meta name="keyworkds" content="Farmacia Hampi Yachay, Medicamentos, balones de oxígeno, farmacia online, botica, farmacia, farmacia hampi yachay, hampy">
+  
+        <meta name="author" content="Hampi_Yachay">
+        
+        <link rel="stylesheet" href="css/estilos4.css">
+        <link rel="stylesheet" type="text/css" href="css/styleadd.css">
+        <script src="https://account.snatchbot.me/script.js"></script><script>window.sntchChat.Init(184045)</script>
+        <script>
+            var inicio = 1; //se inicializa una variable en 0
+
+            function aumentar(){ // se crean la funcion y se agrega al evento onclick en en la etiqueta button con id aumentar
+            
+            var cantidad = document.getElementById('cantidad').value = ++inicio; //se obtiene el valor del input, y se incrementa en 1 el valor que tenga.
+            }
+            
+            function disminuir(){ // se crean la funcion y se agrega al evento onclick en en la etiqueta button con id disminuir
+            
+            var cantidad = document.getElementById('cantidad').value = --inicio; //se obtiene el valor del input, y se decrementa en 1 el valor que tenga.
+            }
+        </script> 
+         
+      <title> FARMACIA HAMPI YACHAY </title>  
+    </head>
+ 
+    <body>
+        <header>
+            <article>
+                <div class="logotipo">
+                    <a href="index4.html"><img src="./Logotipo/HAMPI (1).png "  alt="Hampi Yachay" width="269" height="70"></a> 
+                 </div>
+                <div id="busqueda">
+                    <form>
+                        <input type="search" name="producto" placeholder="Busca una marca o producto">
+                      <button type="submit">Buscar</button>  
+                    </form>
+                </div>
+
+                    <div class="login">
+                        <a href="carrito.html"><img class="carrito" src="js/png-transparent-font-awesome-shopping-cart-computer-icons-shopping-cart-angle-silhouette-black.png" alt="" width="26px" height="26px"></a>
+                        <a class="enlace" href="login.html"> Iniciar Sesión</a>
+                </div>
+
+                
+                <nav class="navegacion">
+                    <ul class="menu">
+                        <li><a href=""> Categorías </a>
+                            <ul class="submenu">
+                                <li><a href="maternidad.html"> Maternidad </a></li>
+                                <li><a href="cuidadop.html"> Cuidado Personal </a></li>
+                                <li><a href="proteccions.html"> Protección Sexual </a></li>
+                                <li><a href="covid.html"> Covid-19 </a></li>
+                                <li><a href="belleza.html"> Belleza </a></li>
+                                <li><a href="maps.html"> Puntos de oxigeno y salud </a></li>
+                            </ul>
+                        </li>        
+                        <li><a href="medicina.html"> Medicina </a></li>
+                        <li><a href="Infantil.html"> Cuidado Infantil </a></li>
+                        <li><a href="sistemainmune.html"> Sistema Inmune </a></li>
+                        <li><a href="adultomayor.html"> Adulto Mayor </a></li>
+                        <li><a href="vitaminas.html"> Vitaminas y Suplementos </a></li>
+                        <li><a href="informate.html"> Infórmate </a></li>
+                    </ul>
+                </nav>
+            </article>   
+        </header>
+
+        <article id="productos">
+            <div class="img-promociones">
+                <div class="img-promociones-produc-001"><img src="promociones/mascarilla.jpg" width="300px" height="400px" alt=""></div>
+            </div>
+
+            <div class="contenedor">
+
+                <div class="titulo-produc">
+                    <div class="titulo-produc-001">CAJA 50 UN</div>
+                </div>
+
+                <div class="detalles">
+                    <div class="detalles-produc-001">Mascarilla 3 pliegues - Caja 50 UN </div>
+                </div>
+            
+                <div class="precio">
+                    <div class="precio-prom">S/ 20.00</div>
+                </div>
+            
+                <div class="detail-form">
+                    <div class="detail-form-001">
+                        <ul>
+                            <li>Filtración mayor a 90%</li>
+                            <li>Imagen referencial</li>
+                            <li>Mascarillas sueltas en caja</li>
+                        </ul>
+                    </div>
+                </div>
+            
+                <div id="container-enhanse">
+                    <div class="present-product">
+                        <div class="present-product-form">Presentación</div>
+                    </div>
+           
+                    <div class="present-tip">
+                        <form  name="formulario" method="post"   action="">
+                            <select name="combo">
+                                <option value="1">Caja</option>
+                            </select>
+                        </form>
+
+                        <div class="incremento">
+                            <button id='disminuir' onclick="disminuir()">-</button>
+                            <input type='text' id="cantidad" value="1">
+                            <button id='aumentar' onclick="aumentar()">+</button>
+                        </div>
+                    </div>
+                </div>
+            
+               <div class="form-button">
+                   <div class="button">
+                    <a href="">Agregar al carrito</a>
+                   </div>
+               </div>
+
+               
+
+            </div>
+
+            
+        </article>
+
+    </body>
+</html>
